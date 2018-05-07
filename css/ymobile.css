@@ -1,0 +1,84 @@
+        .iphone {
+            width: 90%;
+            height: 95%;
+            background: #2b2b2b;
+            margin: 10px auto;
+            border-radius: 25px;
+            border: 2px solid #3b3b3b;
+            box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.5);
+            position: relative;
+        }
+        
+        .iphone::before {
+            content: "";
+            position: absolute;
+            top: -6px;
+            right: 20px;
+            width: 30px;
+            height: 4px;
+            background: #2b2b2b;
+            border-radius: 3px 3px 0 0;
+        }
+        
+        .iphone::after {
+            content: "";
+            position: absolute;
+            top: 80px;
+            left: -6px;
+            width: 4px;
+            height: 10%;
+            background: #2b2b2b;
+            border-radius: 3px 0 0 3px;
+        }
+        
+        .light {
+            width: 5px;
+            height: 5px;
+            border-radius: 50%;
+            background: #1a1a1a;
+            border: 3px solid #4a4a4a;
+            margin: 10px auto 0;
+        }
+        
+        .tt {
+            width: 60px;
+            height: 3px;
+            border: 3px solid #4a4a4a;
+            border-radius: 6px;
+            margin: 10px auto 10px;
+        }
+        
+        .screen {
+            width: 90%;
+            height: 65%;
+            background: #4a4a4a;
+            position: relative;
+            display: flex;
+            align-items: center;
+            margin: 0 auto;
+            box-shadow: 0 0 0 2px #1a1a1a inset;
+            text-align: center;
+            color: white;
+        }
+        
+        .home {
+            width: 20%;
+            height: 9%;
+            background: #1a1a1a;
+            border-radius: 50%;
+            margin: 5% auto;
+            position: relative;
+        }
+        
+        .home::before {
+            content: "";
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin-left: -25%;
+            margin-top: -25%;
+            border-radius: 2px;
+            width: 50%;
+            height: 50%;
+            border: 1px solid #fff;
+        }

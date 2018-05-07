@@ -1,0 +1,49 @@
+    * {
+        margin: 0px;
+        padding: 0px;
+        font-family: "lucida grande", "lucida sans unicode", lucida, helvetica, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+        /* 简书字体 */
+        color: white;
+    }
+    
+    html,
+    body {
+        width: 100%;
+    }
+    
+    body {
+        background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../pic/bground.webp") 0 0 no-repeat;
+        background-size: cover;
+    }
+    
+    h3 {
+        line-height: 4em;
+        color: white;
+        text-align: center;
+        font-size: 8vw;
+        font-weight: bolder;
+    }
+    
+    h4 {
+        line-height: 1em;
+        color: white;
+        text-align: center;
+        font-size: 6vw;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    .lefthide,
+    .left2,
+    .left1,
+    .mid,
+    .right1,
+    .right2,
+    .righthide {
+        background: #E8CCFF;
+        width: 80%;
+        height: 20vh;
+        margin: 30px auto;
+    }
